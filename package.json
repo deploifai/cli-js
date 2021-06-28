@@ -6,7 +6,7 @@
   "bin": {
     "deploifai": "./bin/run"
   },
-  "bugs": "https://github.com/utkarsh867/cli/issues",
+  "bugs": "https://github.com/deploifai/cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -44,9 +44,9 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/utkarsh867/cli",
+  "homepage": "https://github.com/deploifai/cli",
   "keywords": [
-    "oclif"
+    "deploifai"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -57,7 +57,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "utkarsh867/cli",
+  "repository": "deploifai/cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",

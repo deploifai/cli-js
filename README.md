@@ -18,11 +18,11 @@ CLI tool for Deploifai
 
 <!-- usage -->
 ```sh-session
-$ npm install -g cli
+$ npm install -g @deploifai/cli
 $ deploifai COMMAND
 running command...
 $ deploifai (-v|--version|version)
-cli/0.0.1 darwin-x64 node-v15.0.1
+@deploifai/cli/0.0.1 darwin-x64 node-v15.0.1
 $ deploifai --help [COMMAND]
 USAGE
   $ deploifai COMMAND
@@ -51,7 +51,7 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
 ## `deploifai init [PROJECT_NAME]`
 
@@ -72,5 +72,5 @@ EXAMPLES
   $ deploifai init project-name
 ```
 
-_See code: [src/commands/init.ts](https://github.com/utkarsh867/cli/blob/v0.0.1/src/commands/init.ts)_
+_See code: [src/commands/init.ts](https://github.com/deploifai/cli/blob/v0.0.1/src/commands/init.ts)_
 <!-- commandsstop -->

@@ -7,6 +7,7 @@ function createDirectory(parent: string, directory_name: string) {
   }
 
   fs.mkdirSync(path.join(parent, directory_name));
+  return path.join(parent, directory_name);
 }
 
 export default createDirectory;
